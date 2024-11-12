@@ -1,0 +1,52 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@argfile
+-classpath
+'C:/Users/GERALD RUIZ/.m2/repository/org/netbeans/external/AbsoluteLayout/RELEASE230/AbsoluteLayout-RELEASE230.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'C:/Users/GERALD RUIZ/Documents/Jeric De Ocampo/ApartmentRentalandFacilitiesBillingSystem/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/GERALD RUIZ/Documents/Jeric De Ocampo/ApartmentRentalandFacilitiesBillingSystem/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ApartmentRentalandFacilitiesBillingSystem 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'ApartmentRentalandFacilitiesBillingSystem 1.0-SNAPSHOT API'
+'C:/Users/GERALD RUIZ/Documents/Jeric De Ocampo/ApartmentRentalandFacilitiesBillingSystem/src/main/java/login.java'
+C:\Users\GERALD RUIZ\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE230\AbsoluteLayout-RELEASE230.jar = 1731306399075
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\src\main\java\Bold & Beautiful_ Designing an Elegant Dark Living Room Sanctuary.jpg = 1731309183265
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\src\main\java\login.form = 1731312098835
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\src\main\java\login.java = 1731312098851
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\src\main\java = 1731309229639
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\allclasses-index.html = 1731312110336
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\allpackages-index.html = 1731312110338
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\element-list = 1731312110254
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\help-doc.html = 1731312110372
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\index-all.html = 1731312110359
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\index.html = 1731312110367
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\login.html = 1731312110252
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\member-search-index.js = 1731312110345
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\module-search-index.js = 1731312110340
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\overview-tree.html = 1731312110322
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\package-search-index.js = 1731312110342
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\package-summary.html = 1731312110261
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\package-tree.html = 1731312110276
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\package-use.html = 1731312110318
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\search.html = 1731312110363
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\serialized-form.html = 1731312110308
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\tag-search-index.js = 1731312110347
+C:\Users\GERALD RUIZ\Documents\Jeric De Ocampo\ApartmentRentalandFacilitiesBillingSystem\target\reports\apidocs\type-search-index.js = 1731312110343
