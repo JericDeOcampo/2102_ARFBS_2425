@@ -7,12 +7,12 @@
  *
  * @author Luke
  */
-public class ApartmentInterface extends javax.swing.JFrame {
+public class ProcessPaymentInterface extends javax.swing.JFrame {
 
     /**
-     * Creates new form ApartmentInterface
+     * Creates new form ProcessPaymentInterface
      */
-    public ApartmentInterface() {
+    public ProcessPaymentInterface() {
         initComponents();
     }
 
@@ -25,103 +25,119 @@ public class ApartmentInterface extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(700, 500));
-        setSize(new java.awt.Dimension(700, 500));
         getContentPane().setLayout(null);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(242, 242, 242));
         jLabel2.setText("ARFBS");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(170, 40, 130, 50);
+        jLabel2.setBounds(180, 40, 130, 40);
 
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Apartment Rentals and Facilities Billing System");
+        jLabel3.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel3.setText("Apartment Rental and Facilities Billing System");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(290, 60, 290, 16);
+        jLabel3.setBounds(300, 60, 290, 16);
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel4.setText("Address");
+        jLabel4.setText("Apartment Number");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(160, 130, 80, 20);
+        jLabel4.setBounds(60, 130, 150, 20);
+
+        jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(210, 130, 350, 26);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel5.setText("Rent Amount");
+        jLabel5.setText("Tenant Name");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(140, 190, 110, 16);
+        jLabel5.setBounds(70, 190, 110, 16);
+
+        jTextField2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        getContentPane().add(jTextField2);
+        jTextField2.setBounds(210, 190, 350, 26);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(242, 242, 242));
-        jLabel6.setText("Status");
+        jLabel6.setText(" Rental Charges");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(160, 250, 50, 16);
+        jLabel6.setBounds(60, 240, 120, 16);
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jTextField1);
-        jTextField1.setBounds(260, 130, 310, 22);
-        getContentPane().add(jTextField2);
-        jTextField2.setBounds(260, 190, 310, 22);
+        jTextField3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(260, 250, 310, 22);
+        jTextField3.setBounds(210, 240, 350, 26);
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel7.setText("Payment Amount");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(60, 290, 140, 16);
+
+        jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField4.setForeground(new java.awt.Color(242, 242, 242));
+        getContentPane().add(jTextField4);
+        jTextField4.setBounds(210, 290, 350, 26);
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setText("Next");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
+        jButton1.setText("Generate Receipt");
         getContentPane().add(jButton1);
-        jButton1.setBounds(520, 350, 72, 20);
+        jButton1.setBounds(300, 340, 170, 27);
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setText("Back");
+        jButton2.setText("View Payment History");
         getContentPane().add(jButton2);
-        jButton2.setBounds(200, 350, 72, 20);
+        jButton2.setBounds(180, 390, 180, 27);
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton3.setText("Update Status");
+        jButton3.setText("New User");
         getContentPane().add(jButton3);
-        jButton3.setBounds(340, 300, 130, 27);
+        jButton3.setBounds(450, 390, 140, 27);
+
+        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton4.setText("Back");
+        getContentPane().add(jButton4);
+        jButton4.setBounds(60, 430, 70, 27);
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Luke\\Downloads\\Background image.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
-        jLabel1.setMaximumSize(new java.awt.Dimension(700, 500));
-        jLabel1.setMinimumSize(new java.awt.Dimension(700, 500));
-        jLabel1.setPreferredSize(new java.awt.Dimension(700, 500));
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(-3, -4, 700, 500);
+        jLabel1.setBounds(-3, -4, 700, 510);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -140,20 +156,20 @@ public class ApartmentInterface extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ApartmentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProcessPaymentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ApartmentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProcessPaymentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ApartmentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProcessPaymentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ApartmentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProcessPaymentInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ApartmentInterface().setVisible(true);
+                new ProcessPaymentInterface().setVisible(true);
             }
         });
     }
@@ -162,14 +178,19 @@ public class ApartmentInterface extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
     // End of variables declaration//GEN-END:variables
 }
